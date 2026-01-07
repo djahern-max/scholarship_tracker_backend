@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+env/
+venv/
+
+# Environment Variables
+.env
+
+# macOS
+.DS_Store
+
+# Alembic (keep __init__.py but ignore generated migrations)
+migrations/versions/*.py
+!migrations/versions/__init__.py

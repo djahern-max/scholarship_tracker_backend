@@ -1,0 +1,360 @@
+{
+    "_meta": {
+        "file_location": "data/scholarships.json",
+        "scholarship_count": 15,
+        "uniqueness": "15 unique scholarships (no duplicates)",
+        "goal": "Add many more REAL scholarships with zero duplicates"
+    },
+    "scholarships": [
+        {
+            "name": "Coca-Cola Scholars Program",
+            "description": "Achievement-based scholarship recognizing outstanding high school seniors who demonstrate leadership, service, and academic excellence. Awards range from $10,000 to $20,000.",
+            "amount": 20000.00,
+            "deadline": "2025-10-31",
+            "eligibility": "High school seniors with minimum 3.0 GPA, demonstrated leadership and service, U.S. citizen/permanent resident",
+            "application_url": "https://www.coca-colascholarsfoundation.org/apply/",
+            "eligibility_criteria": {
+                "gpa_min": 3.0,
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "citizenship": [
+                    "US citizen",
+                    "permanent resident"
+                ],
+                "leadership_required": true
+            },
+            "tags": [
+                "Merit-Based",
+                "Leadership",
+                "Service"
+            ]
+        },
+        {
+            "name": "Gates Scholarship",
+            "description": "A highly selective, full scholarship for exceptional, Pell-eligible, minority high school seniors. Covers the full cost of attendance not already covered by other financial aid.",
+            "amount": 100000.00,
+            "deadline": "2025-09-15",
+            "eligibility": "High school seniors, Pell-eligible, minimum 3.3 GPA, from minority backgrounds",
+            "application_url": "https://www.thegatesscholarship.org/scholarship",
+            "eligibility_criteria": {
+                "gpa_min": 3.3,
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "pell_eligible": true,
+                "demographics": [
+                    "African American",
+                    "American Indian",
+                    "Alaska Native",
+                    "Asian Pacific Islander",
+                    "Hispanic"
+                ]
+            },
+            "tags": [
+                "Full Ride",
+                "Need-Based",
+                "Minority"
+            ]
+        },
+        {
+            "name": "Jack Kent Cooke Foundation College Scholarship",
+            "description": "Scholarships of up to $55,000 per year for high-achieving high school seniors with financial need. Covers four years of undergraduate study.",
+            "amount": 55000.00,
+            "deadline": "2025-11-14",
+            "eligibility": "High school seniors with financial need, minimum 3.5 GPA, planning to attend accredited 4-year institution",
+            "application_url": "https://www.jkcf.org/our-scholarships/college-scholarship-program/",
+            "eligibility_criteria": {
+                "gpa_min": 3.5,
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "financial_need": true
+            },
+            "tags": [
+                "Merit-Based",
+                "Need-Based",
+                "High-Achieving"
+            ]
+        },
+        {
+            "name": "Dell Scholars Program",
+            "description": "Provides financial assistance and support services to students who have overcome significant obstacles. Recipients receive $20,000 scholarship, laptop, and textbook credits.",
+            "amount": 20000.00,
+            "deadline": "2025-12-01",
+            "eligibility": "High school seniors participating in approved college readiness program, minimum 2.4 GPA, Pell-eligible",
+            "application_url": "https://www.dellscholars.org/scholarship/",
+            "eligibility_criteria": {
+                "gpa_min": 2.4,
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "pell_eligible": true,
+                "financial_need": true
+            },
+            "tags": [
+                "Need-Based",
+                "Technology",
+                "First-Generation"
+            ]
+        },
+        {
+            "name": "Elks National Foundation Most Valuable Student",
+            "description": "Awards range from $4,000 to $50,000 distributed over four years for top high school seniors based on scholarship, leadership, and financial need.",
+            "amount": 50000.00,
+            "deadline": "2025-11-05",
+            "eligibility": "High school seniors, U.S. citizens, financial need, leadership and scholarship",
+            "application_url": "https://www.elks.org/scholars/scholarships/MVS.cfm",
+            "eligibility_criteria": {
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "citizenship": [
+                    "US citizen"
+                ],
+                "financial_need": true,
+                "leadership_required": true
+            },
+            "tags": [
+                "Merit-Based",
+                "Leadership",
+                "Community Service"
+            ]
+        },
+        {
+            "name": "Google Generation Scholarship",
+            "description": "Google's scholarship program to help aspiring computer scientists excel in technology and become leaders in the field. $10,000 for selected students.",
+            "amount": 10000.00,
+            "deadline": "2025-12-01",
+            "eligibility": "Current university students pursuing computer science or related field, strong academic performance, demonstrated leadership",
+            "application_url": "https://buildyourfuture.withgoogle.com/scholarships",
+            "eligibility_criteria": {
+                "majors": [
+                    "Computer Science",
+                    "Computer Engineering",
+                    "Software Engineering"
+                ],
+                "grade_levels": [
+                    "undergraduate"
+                ],
+                "demographics": [
+                    "women",
+                    "underrepresented minorities"
+                ]
+            },
+            "tags": [
+                "STEM",
+                "Technology",
+                "Diversity"
+            ]
+        },
+        {
+            "name": "QuestBridge National College Match",
+            "description": "Connects high-achieving, low-income students with full four-year scholarships to the nation's best colleges. Full-ride covering tuition, room, board, books, and travel.",
+            "amount": 200000.00,
+            "deadline": "2025-09-26",
+            "eligibility": "High school seniors with outstanding academic ability and strong financial need, typically from households earning less than $65,000 annually",
+            "application_url": "https://www.questbridge.org/",
+            "eligibility_criteria": {
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "financial_need": true,
+                "gpa_min": 3.5
+            },
+            "tags": [
+                "Full Ride",
+                "Need-Based",
+                "High-Achieving"
+            ]
+        },
+        {
+            "name": "AXA Achievement Scholarship",
+            "description": "Awards for students who have demonstrated ambition and drive, including self-direction and determination to succeed in college. 52 scholarships of $25,000 awarded.",
+            "amount": 25000.00,
+            "deadline": "2025-12-15",
+            "eligibility": "High school seniors planning to attend accredited 2-year or 4-year college in the U.S., demonstrated ambition and drive",
+            "application_url": "https://www.axa.com/scholarship",
+            "eligibility_criteria": {
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "citizenship": [
+                    "US citizen",
+                    "legal resident"
+                ]
+            },
+            "tags": [
+                "Merit-Based",
+                "Achievement",
+                "Leadership"
+            ]
+        },
+        {
+            "name": "Horatio Alger Scholarship",
+            "description": "For students who have faced and overcome great obstacles in their young lives. Awards range from $7,000 to $25,000.",
+            "amount": 25000.00,
+            "deadline": "2025-10-25",
+            "eligibility": "High school seniors with critical financial need (less than $55,000 adjusted gross family income), demonstrated integrity and perseverance, minimum 2.0 GPA, U.S. citizen",
+            "application_url": "https://scholars.horatioalger.org/",
+            "eligibility_criteria": {
+                "gpa_min": 2.0,
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "financial_need": true,
+                "citizenship": [
+                    "US citizen"
+                ]
+            },
+            "tags": [
+                "Need-Based",
+                "Overcoming Adversity",
+                "Perseverance"
+            ]
+        },
+        {
+            "name": "Davidson Fellows Scholarship",
+            "description": "Awards $50,000, $25,000, and $10,000 scholarships to students 18 or younger who have completed a significant piece of work in STEM, literature, music, or philosophy.",
+            "amount": 50000.00,
+            "deadline": "2025-02-12",
+            "eligibility": "Students 18 or younger who have completed a significant piece of work",
+            "application_url": "https://www.davidsongifted.org/fellows-scholarship",
+            "eligibility_criteria": {
+                "age_max": 18,
+                "grade_levels": [
+                    "high school junior",
+                    "high school senior"
+                ]
+            },
+            "tags": [
+                "STEM",
+                "Gifted",
+                "Research"
+            ]
+        },
+        {
+            "name": "Ron Brown Scholar Program",
+            "description": "Awarded to African-American high school seniors demonstrating academic excellence, exceptional leadership potential, community service, and financial need. $40,000 over four years.",
+            "amount": 40000.00,
+            "deadline": "2025-01-09",
+            "eligibility": "African-American high school seniors, U.S. citizens or permanent residents, demonstrated academic achievement, financial need, leadership, and community service",
+            "application_url": "https://www.ronbrown.org/",
+            "eligibility_criteria": {
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "demographics": [
+                    "African American"
+                ],
+                "citizenship": [
+                    "US citizen",
+                    "permanent resident"
+                ],
+                "financial_need": true,
+                "leadership_required": true
+            },
+            "tags": [
+                "African American",
+                "Leadership",
+                "Need-Based"
+            ]
+        },
+        {
+            "name": "Amazon Future Engineer Scholarship",
+            "description": "Annual scholarship for students pursuing computer science degrees. Includes $40,000 ($10,000/year) scholarship and guaranteed summer internship at Amazon.",
+            "amount": 40000.00,
+            "deadline": "2025-01-15",
+            "eligibility": "High school seniors from underrepresented or underserved communities planning to major in computer science, software engineering, computer engineering, or related field",
+            "application_url": "https://www.amazonfutureengineer.com/scholarships",
+            "eligibility_criteria": {
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "majors": [
+                    "Computer Science",
+                    "Software Engineering",
+                    "Computer Engineering"
+                ],
+                "demographics": [
+                    "underrepresented minorities",
+                    "low-income"
+                ]
+            },
+            "tags": [
+                "STEM",
+                "Technology",
+                "Internship",
+                "Diversity"
+            ]
+        },
+        {
+            "name": "Burger King Scholars Program",
+            "description": "Scholarships ranging from $1,000 to $50,000 for high school seniors who have a minimum 2.5 GPA, plan to enroll full-time, participate in community service, and work part-time.",
+            "amount": 50000.00,
+            "deadline": "2025-12-15",
+            "eligibility": "High school seniors, minimum 2.5 GPA, U.S. or Canadian residents, planning to enroll full-time at accredited institution",
+            "application_url": "https://www.burgerkingscholars.com/",
+            "eligibility_criteria": {
+                "gpa_min": 2.5,
+                "grade_levels": [
+                    "high school senior"
+                ],
+                "service_hours_min": 50
+            },
+            "tags": [
+                "Merit-Based",
+                "Community Service",
+                "Work Experience"
+            ]
+        },
+        {
+            "name": "Hispanic Scholarship Fund",
+            "description": "Supporting Hispanic students with scholarships ranging from $500 to $5,000. Over $40 million awarded annually to students pursuing higher education.",
+            "amount": 5000.00,
+            "deadline": "2025-03-30",
+            "eligibility": "Students of Hispanic heritage, minimum 3.0 GPA for high school students, minimum 2.5 GPA for college/graduate students, U.S. citizen, permanent resident, or DACA",
+            "application_url": "https://www.hsf.net/scholarship",
+            "eligibility_criteria": {
+                "gpa_min": 3.0,
+                "demographics": [
+                    "Hispanic"
+                ],
+                "citizenship": [
+                    "US citizen",
+                    "permanent resident",
+                    "DACA"
+                ]
+            },
+            "tags": [
+                "Hispanic",
+                "Merit-Based",
+                "Diversity"
+            ]
+        },
+        {
+            "name": "UNCF Scholarships",
+            "description": "The United Negro College Fund provides scholarships to African-American students attending UNCF member institutions and other accredited colleges. Various amounts available.",
+            "amount": 10000.00,
+            "deadline": "2025-04-15",
+            "eligibility": "African-American students with minimum 2.5 GPA, financial need, U.S. citizen or permanent resident",
+            "application_url": "https://www.uncf.org/scholarships",
+            "eligibility_criteria": {
+                "gpa_min": 2.5,
+                "demographics": [
+                    "African American"
+                ],
+                "citizenship": [
+                    "US citizen",
+                    "permanent resident"
+                ],
+                "financial_need": true
+            },
+            "tags": [
+                "African American",
+                "Need-Based",
+                "HBCU"
+            ]
+        }
+    ]
+}
